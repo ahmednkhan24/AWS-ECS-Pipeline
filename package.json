@@ -1,0 +1,20 @@
+{
+  "name": "node-to-aws",
+  "version": "1.0.0",
+  "description": "## Resources https://www.freecodecamp.org/news/how-to-deploy-a-node-js-application-to-amazon-web-services-using-docker-81c2a2d7225b/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmednkhan24/node-to-aws.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahmednkhan24/node-to-aws/issues"
+  },
+  "homepage": "https://github.com/ahmednkhan24/node-to-aws#readme"
+}
