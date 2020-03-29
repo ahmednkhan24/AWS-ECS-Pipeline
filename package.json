@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ahmednkhan24/node-to-aws/issues"
   },
-  "homepage": "https://github.com/ahmednkhan24/node-to-aws#readme"
+  "homepage": "https://github.com/ahmednkhan24/node-to-aws#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
