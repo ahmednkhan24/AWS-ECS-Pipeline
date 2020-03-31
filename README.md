@@ -39,9 +39,9 @@ https://www.youtube.com/watch?v=9K3OEhm2lR0
       * Configure for JSON if wanting to do any automation ;)
 * Navigate to Services -> Elastic Container Service
  * Navigate to Clusters under ECS (Elastic Container Service)
-  * Cluster you created -> Tasks -> Run New Task -> Run Task
-  * Cluster you created -> ECS Instances -> Click the EC2 Instance
-  * Access service by grabbing the public DNS
+   * Cluster you created -> Tasks -> Run New Task -> Run Task
+   * Cluster you created -> ECS Instances -> Click the EC2 Instance
+   * Access service by grabbing the public DNS
      
      
   
