@@ -29,8 +29,20 @@ https://www.youtube.com/watch?v=9K3OEhm2lR0
      * Container Instance IAM Role: Default
 * Navigate to Services -> Elastic Container Service
  * Navigate to Task Definitions under ECS (Elastic Container Service)
-  * Create New Task Definition
-   * hello
+   * Create New Task Definition
+     * EC2
+     * Container Definitions (Add desired container that was uploaded)
+      * Image should be the URI of the image we created earlier, but add ":latest" to fetch the latest image
+      * Memory Limit: 512 Hard Limit (need to research more about what this is)
+      * Port Mappings: Map 80 (host) to 3000 (container); TCP
+      * Entrypoint, Command, and Working directory should've been set in Dockerfile (need to research env variables)
+      * Configure for JSON if wanting to do any automation ;)
+* Navigate to Services -> Elastic Container Service
+ * Navigate to Clusters under ECS (Elastic Container Service)
+  * Cluster you created -> Tasks -> Run New Task -> Run Task
+  * Cluster you created -> ECS Instances -> Click the EC2 Instance
+  * Access service by grabbing the public DNS
+     
      
   
   
