@@ -26,7 +26,7 @@ https://www.youtube.com/watch?v=9K3OEhm2lR0
     * VPC: Default
     * Subnets: Default
     * Security Group: Default (Check rules to define inbound/outbound rules, like SSH -> port 22, HTTP/HTTPS)
-   * Container Instance IAM Role: Default
+    * Container Instance IAM Role: Default
      
   
   
