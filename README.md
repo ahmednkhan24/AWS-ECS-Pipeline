@@ -28,7 +28,9 @@ https://www.youtube.com/watch?v=9K3OEhm2lR0
      * Security Group: Default (Check rules to define inbound/outbound rules, like SSH -> port 22, HTTP/HTTPS)
      * Container Instance IAM Role: Default
 * Navigate to Services -> Elastic Container Service
- * helllo
+ * Navigate to Task Definitions under ECS (Elastic Container Service)
+  * Create New Task Definition
+   * hello
      
   
   
