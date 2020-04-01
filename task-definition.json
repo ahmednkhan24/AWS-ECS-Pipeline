@@ -33,7 +33,10 @@
             "logConfiguration": null,
             "ulimits": null,
             "dockerLabels": null,
-            "dependsOn": null
+            "dependsOn": null,
+            "repositoryCredentials": {
+                "credentialsParameter": ""
+            }
         }
     ],
     "volumes": [],
@@ -42,5 +45,10 @@
     "cpu": null,
     "placementConstraints": [],
     "family": "demo-node-task-definition",
-    "tags": []
+    "tags": [],
+    "attributes": [
+        {
+            "name": "com.amazonaws.ecs.capability.ecr-auth"
+        }
+    ]
 }
