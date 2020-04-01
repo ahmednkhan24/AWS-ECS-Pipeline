@@ -45,10 +45,5 @@
     "cpu": null,
     "placementConstraints": [],
     "family": "demo-node-task-definition",
-    "tags": [],
-    "attributes": [
-        {
-            "name": "com.amazonaws.ecs.capability.ecr-auth"
-        }
-    ]
+    "tags": []
 }
