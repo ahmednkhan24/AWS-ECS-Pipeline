@@ -33,10 +33,7 @@
             "logConfiguration": null,
             "ulimits": null,
             "dockerLabels": null,
-            "dependsOn": null,
-            "repositoryCredentials": {
-                "credentialsParameter": ""
-            }
+            "dependsOn": null
         }
     ],
     "volumes": [],
