@@ -44,6 +44,5 @@
     "memory": null,
     "cpu": null,
     "placementConstraints": [],
-    "family": "demo-node-task-definition",
-    "tags": []
+    "family": "demo-node-task-definition"
 }
