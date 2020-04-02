@@ -44,10 +44,3 @@ ENV? https://codeburst.io/process-env-what-it-is-and-why-when-how-to-use-it-effe
    * Cluster you created -> Tasks -> Run New Task -> Run Task
    * Cluster you created -> ECS Instances -> Click the EC2 Instance
    * Access service by grabbing the public DNS
-   
-   
-edit
-     
-     
-  
-  
