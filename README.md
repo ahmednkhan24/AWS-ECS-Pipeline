@@ -1,15 +1,8 @@
-# node-to-aws
+# Node.js API to AWS ECS
 
-## Resources
-https://www.freecodecamp.org/news/how-to-deploy-a-node-js-application-to-amazon-web-services-using-docker-81c2a2d7225b/
+## Application deployed [here](ec2-3-15-190-149.us-east-2.compute.amazonaws.com)
 
-https://www.youtube.com/watch?v=KJNj37ZXPqE&t=2360s
-
-https://www.youtube.com/watch?v=9K3OEhm2lR0
-
-ENV? https://codeburst.io/process-env-what-it-is-and-why-when-how-to-use-it-effectively-505d0b2831e7
-
-
+## Setup AWS Instance
 * Sign up / create account at https://aws.amazon.com/
 * Navigate to Services -> Elastic Container Service
   * Navigate to Repositories under ECR (Elastic Container Registry)
@@ -35,7 +28,7 @@ ENV? https://codeburst.io/process-env-what-it-is-and-why-when-how-to-use-it-effe
      * EC2
      * Container Definitions (Add desired container that was uploaded)
       * Image should be the URI of the image we created earlier, but add ":latest" to fetch the latest image
-      * Memory Limit: 512 Hard Limit (need to research more about what this is)
+      * Memory Limit: 256 Hard Limit (need to research more about what this is)
       * Port Mappings: Map 80 (host) to 3000 (container); TCP
       * Entrypoint, Command, and Working directory should've been set in Dockerfile (need to research env variables)
       * Configure for JSON if wanting to do any automation ;)
@@ -44,5 +37,21 @@ ENV? https://codeburst.io/process-env-what-it-is-and-why-when-how-to-use-it-effe
    * Cluster you created -> Tasks -> Run New Task -> Run Task
    * Cluster you created -> ECS Instances -> Click the EC2 Instance
    * Access service by grabbing the public DNS
-   
-Edit
+
+## Continuous Deployment
+Before starting workflow, navigate to the AWS console and stop the currently running container so that this workflow can work. We have to do this because dynamic port mapping needs to be configured in order to truly have continuous deployment. 
+
+Explanations for this can be found here:
+
+https://stackoverflow.com/questions/48931823/i-cant-deploy-a-new-container-to-my-ecs-cluster-because-of-ports-in-use
+
+https://aws.amazon.com/premiumsupport/knowledge-center/dynamic-port-mapping-ecs/
+
+## Resources Used
+https://www.freecodecamp.org/news/how-to-deploy-a-node-js-application-to-amazon-web-services-using-docker-81c2a2d7225b/
+
+https://www.youtube.com/watch?v=KJNj37ZXPqE&t=2360s
+
+https://www.youtube.com/watch?v=9K3OEhm2lR0
+
+ENV? https://codeburst.io/process-env-what-it-is-and-why-when-how-to-use-it-effectively-505d0b2831e7
