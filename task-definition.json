@@ -12,7 +12,7 @@
             "essential": true,
             "portMappings": [
                 {
-                    "hostPort": "82",
+                    "hostPort": "80",
                     "containerPort": "3000",
                     "protocol": "tcp"
                 }
