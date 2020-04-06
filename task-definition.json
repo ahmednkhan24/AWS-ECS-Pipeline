@@ -7,7 +7,7 @@
         {
             "name": "sample-node-container",
             "image": "848213930039.dkr.ecr.us-east-2.amazonaws.com/aws-sample-nodejs-app:latest",
-            "memory": "512",
+            "memory": "256",
             "resourceRequirements": null,
             "essential": true,
             "portMappings": [
