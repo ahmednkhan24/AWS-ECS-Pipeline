@@ -53,5 +53,3 @@ https://www.freecodecamp.org/news/how-to-deploy-a-node-js-application-to-amazon-
 https://www.youtube.com/watch?v=KJNj37ZXPqE&t=2360s
 
 https://www.youtube.com/watch?v=9K3OEhm2lR0
-
-ENV? https://codeburst.io/process-env-what-it-is-and-why-when-how-to-use-it-effectively-505d0b2831e7
